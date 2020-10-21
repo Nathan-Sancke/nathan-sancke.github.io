@@ -1,3 +1,5 @@
+classementOrdreAlphabetique (liste);
+
 function classementOrdreAlphabetique (liste){
     let tab= ["@","z"]; //initialise la nouvelle boucle avec le caractère avant A dans la table ascci et z pour ne pas gérer les "blancs"
     for (let i=0; i< liste.length; i++) //boucle autant de fois qu'il y a d'éléments dans la liste en paramètres
